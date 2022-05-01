@@ -2,16 +2,16 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
 import Header from '../components/header/header';
-import getstartedImg from '../public/assets/getstarted.png';
+import HomeImg from '../public/assets/home.png';
 
 export default function Home () {
   return (
-    <div className="home">
+    <section className="home">
       <Header />
       <main>
-        <section className="getstarted">
-          <div className="getstarted-content">
-            <div className="getstarted-content-article">
+        <div className="d-flex home">
+          <div className="home_content">
+            <div className="home_content_article">
               <h2>OsaVe</h2>
               <span>Online Secure Document Safe</span>
               <p>
@@ -22,13 +22,13 @@ export default function Home () {
             </div>
 
           </div>
-          <div className="getstarted-content">
-            <div className="getstartedImg">
-              <Image src={getstartedImg} alt="getstartedImg" />
+          <div className="home_content">
+            <div className="homeImg">
+              <Image src={HomeImg} alt="homeImg" />
             </div>
           </div>
-        </section>
-        <section className="save_document_type">
+        </div>
+        <div className="save_document_type">
           <h2>Save your documents online</h2>
           <p>Document Type</p>
           <div className="inner_save_document_type">
@@ -83,8 +83,9 @@ export default function Home () {
              
             </div>
           </div>
-        </section>
+        </div>
       </main>
-    </div>
+        
+    </section>
   );
 }

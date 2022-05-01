@@ -1,0 +1,116 @@
+.login{
+    
+}
+.login .login-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.login .login-container .login-content{
+    width: 100%;
+}
+.login .login-container .login-content span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555770;
+    
+}
+.login .login-container .login-content h2{
+    margin-top: 8px;
+    margin-bottom: 3px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #4378DB;
+    
+}
+.login .login-container .login-content p{
+    margin-top: 3px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #28293D;
+    
+}
+.login .login-container .login-content .loginImg{
+    position: relative;
+    top: 45px;
+}
+
+.form-container form .social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.form-container form .social svg{
+    cursor: pointer;
+}
+
+/* toggle switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 31px;
+    height: 18px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(50, 50, 71, 0.08), 0px 4px 8px rgba(50, 50, 71, 0.06);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13.43px;
+    width: 13.5px;
+    left: 4px;
+    bottom: 2.5px;
+    background-color: #263238;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  /* input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  } */
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 16px;
+  }
+  
+  .slider.round:before {
+    border-radius: 16px;
+  }

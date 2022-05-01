@@ -19,18 +19,24 @@ li{
   margin: 0 auto;
   padding: 15px;
 }
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+}
 main{
   max-width: 1091px;
   margin: 0 auto;
   margin-top: 26px;
   padding: 15px;
 }
-main .getstarted{
+
+main .home{
   display: flex;
   justify-content: space-between;
   gap: 120px;
 }
-main .getstarted .getstarted-content .getstarted-content-article h2{
+
+main .home .home_content .home_content_article h2{
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -39,7 +45,8 @@ main .getstarted .getstarted-content .getstarted-content-article h2{
   color: #4378DB;
   margin-bottom: 8px;
 }
-main .getstarted .getstarted-content .getstarted-content-article span{
+
+section .home .home_content .home_content_article span{
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -47,7 +54,8 @@ main .getstarted .getstarted-content .getstarted-content-article span{
   line-height: 36px;
   color: #28293D;
 }
-main .getstarted .getstarted-content .getstarted-content-article p{
+
+section .home .home_content .home_content_article p{
   max-width: 436px;
   font-family: 'Lato';
   font-style: normal;
@@ -58,7 +66,8 @@ main .getstarted .getstarted-content .getstarted-content-article p{
   margin-top: 18px;
   margin-bottom: 30px;
 }
-main .getstarted .getstarted-content .getstarted-content-article a{
+
+section .home .home_content .home_content_article a{
   max-width: 234px;
   min-height: 48px;
   display: block;
@@ -78,13 +87,16 @@ main .getstarted .getstarted-content .getstarted-content-article a{
   text-align: center;
   color: #FFFFFF;
 }
-main .getstarted .getstarted-content .getstartedImg{
+
+section .home .home_content .homeImg{
   max-width: 498px;
 }
-main .save_document_type{
+
+section .save_document_type{
   margin-top: 81px;
 }
-main .save_document_type h2{
+
+section .save_document_type h2{
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -93,7 +105,8 @@ main .save_document_type h2{
   color: #28293D;
   margin-bottom: 6px;
 }
-main .save_document_type p{
+
+section .save_document_type p{
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -102,21 +115,25 @@ main .save_document_type p{
   color: #555770;
   margin-bottom: 36px;
 }
-main .save_document_type .inner_save_document_type{
+
+section .save_document_type .inner_save_document_type{
   display: flex;
   gap: 24.58px;
 }
-main .inner_save_document_type .folder{
+
+section .inner_save_document_type .folder{
   width: 228.42px;
   min-height: 173.05px;
   background: #F7F7F7;
   padding: 26.76px;
 }
-main .inner_save_document_type .folder div{
+
+section .inner_save_document_type .folder div{
   flex-direction: column;
   justify-content: center;
 }
-main .inner_save_document_type .folder div span{
+
+section .inner_save_document_type .folder div span{
   margin-top: 20.3px;
   font-family: 'Lato';
   font-style: normal;
@@ -125,7 +142,8 @@ main .inner_save_document_type .folder div span{
   line-height: 19px;
   letter-spacing: -0.24px;
 }
-main .inner_save_document_type .folder div p{
+
+section .inner_save_document_type .folder div p{
   margin-top: 8.4px;
   font-family: 'Lato';
   font-style: normal;
@@ -134,42 +152,34 @@ main .inner_save_document_type .folder div p{
   line-height: 17px;
   letter-spacing: -0.24px;
 }
-main .inner_save_document_type .folder .word_document span{
+
+section .inner_save_document_type .folder .word_document span{
   color: #405DB5;
 }
-main .inner_save_document_type .folder .word_document p{
+
+section .inner_save_document_type .folder .word_document p{
   color: #4378DB;
 }
-main .inner_save_document_type .folder .Images span, 
-main .inner_save_document_type .folder .Images p{
+
+section .inner_save_document_type .folder .Images span, 
+section .inner_save_document_type .folder .Images p{
   color: #3F3D56;
 }
-main .inner_save_document_type .folder .pdf span, 
-main .inner_save_document_type .folder .pdf p{
+
+section .inner_save_document_type .folder .pdf span, 
+section .inner_save_document_type .folder .pdf p{
   color: #FF0000;
 }
-main .inner_save_document_type .folder .Presentation_slides span, 
-main .inner_save_document_type .folder .Presentation_slides p{
+
+section .inner_save_document_type .folder .Presentation_slides span, 
+section .inner_save_document_type .folder .Presentation_slides p{
   color: #BC0000;
 }
-main .inner_save_document_type .folder .Spread_sheet span, 
-main .inner_save_document_type .folder .Spread_sheet p{
+
+section .inner_save_document_type .folder .Spread_sheet span, 
+section .inner_save_document_type .folder .Spread_sheet p{
   color: #4CAF50;
 }
-
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-/* .active{
-  color: red;
-} */
 
 .sidebar .active{
   border-left: 5px solid #4378DB;
