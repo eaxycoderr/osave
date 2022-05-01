@@ -1,0 +1,6 @@
+@media (max-width: 1150px){
+    .dashboard_main_body .dashboard_contents 
+    .dashboard_contents_header.archive_header{
+        display: block;
+    }
+}

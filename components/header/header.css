@@ -1,0 +1,20 @@
+header{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+    min-height: 64px;
+}
+header .inner_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .inner_header span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4378DB;
+}
+.dashboard_header{
+    box-shadow: none;
+}

@@ -1,0 +1,149 @@
+header .inner_dashboard_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-right: 70px;
+    width: 100%;
+}
+header .inner_dashboard_header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+header .inner_dashboard_header .logo p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4378DB;
+}
+header .inner_dashboard_header .search_box{
+    position: absolute;
+    right: 365px;
+}
+header .inner_dashboard_header .search_box svg{
+    cursor: pointer;
+}
+header .inner_dashboard_header .notify_profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .inner_dashboard_header .notify_profile .notification{
+    padding-right: 32px;
+}
+header .inner_dashboard_header .notify_profile .notification .notification_box{
+    cursor: pointer;
+}
+header .inner_dashboard_header .notify_profile 
+.notification .css-106c1u2-MuiBadge-badge{
+    background-color: #FF0000;
+}
+header .inner_dashboard_header .notify_profile 
+.notification .notify_icon{
+    position: relative;
+    left: 5px;
+    top: -2px;
+}
+header .inner_dashboard_header .profile{
+    display: flex;
+    border-left: 1px solid rgba(67, 120, 219, 0.77);
+    height: 50px;
+    align-items: center;
+    gap: 23px;
+    padding-left: 56px;
+}
+header .inner_dashboard_header .profile .name{
+    width: 82px;
+}
+header .inner_dashboard_header .profile .name p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #4378DB;
+}
+header .inner_dashboard_header 
+.notify_profile .avatar{
+    width: 44px;
+    height: 44px;
+    border: 1.5px solid #4378DB;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+header .inner_dashboard_header 
+.notify_profile .profile .avatar 
+.avatar_img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.css-pdct74-MuiTablePagination-selectLabel, 
+.css-levciy-MuiTablePagination-displayedRows{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #4378DB;
+}
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root{
+    color: #9FA2B4;
+}
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+    color: #4378DB;
+}
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.MuiSelect-select{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #4B506D;
+}
+
+/* Box with triangle arrow */
+.box_triangle {
+    position: absolute;
+    width: 150px;
+    background-color: #4378DB;
+    box-shadow: 0 5px 30px -12px rgb(0 0 0 / 0.25);
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+  }
+  
+  .box_triangle.arrow-top {
+    margin-top: 200px;
+    margin-right: 35px;
+  }
+  
+  .box_triangle.arrow-top:after {
+    content: " ";
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    border-top: none;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #4378DB;
+  }
+
+  .box_triangle .box_triangle_list{
+      color: #fff;
+      font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+  }
