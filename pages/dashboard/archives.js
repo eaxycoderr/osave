@@ -5,7 +5,7 @@ import ArchiveContents from '../../components/dashboard/archives/archivesContent
 export default function DashboardArchives () {
   return (
     <div className='dashboard_main_body'>
-      <div className="sidebar">
+      <div className="adjustment sidebar">
         <SideBar />
       </div>
       <div className="dashboard_contents">

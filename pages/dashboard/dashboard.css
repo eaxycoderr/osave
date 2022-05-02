@@ -4,7 +4,7 @@
     gap: 38px;
     width: 100%;
 }
-.dashboard_main_body .sidebar{
+.dashboard_main_body .adjustment.sidebar{
     width: 247px;
 }
 .dashboard_main_body .dashboard_contents{

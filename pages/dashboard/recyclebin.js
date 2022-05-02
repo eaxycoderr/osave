@@ -5,7 +5,7 @@ export default function DashboardRecyclebin () {
 
   return (
     <div className='dashboard_main_body'>
-      <div className="sidebar">
+      <div className="adjustment sidebar">
         <SideBar />
       </div>
       <div className="dashboard_contents">

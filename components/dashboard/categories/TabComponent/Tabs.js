@@ -3,9 +3,9 @@ import TabNavItem from "../tabs/TabNavItem";
 import TabContent from "../tabs/TabContent";
 import Documents from "../documents";
 import Pdf from "../PDF";
-import SpreadSheet from "../SpreadSheet";
-import PresentationSlides from "../PresentationSlides";
-import Images from "../Images";
+// import SpreadSheet from '../spreadSheet'
+// import PresentationSlides from "../PresentationSlides";
+// import Images from "../Images";
  
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -25,16 +25,16 @@ const Tabs = () => {
           <Documents/>
         </TabContent>
         <TabContent id="tab2" activeTab={activeTab}>
-          <PresentationSlides/>
+          {/* <PresentationSlides/> */}hdhdhdhdh
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
           <Pdf/>
         </TabContent>
         <TabContent id="tab4" activeTab={activeTab}>
-          <SpreadSheet/>
+          {/* <SpreadSheet/> */}hdhdhdhdh
         </TabContent>
         <TabContent id="tab5" activeTab={activeTab}>
-          <Images/>
+          {/* <Images/> */}hdhdhdhdh
         </TabContent>
       </div>
     </div>
