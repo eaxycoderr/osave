@@ -4,8 +4,8 @@ import TabContent from "../tabs/TabContent";
 import Documents from "../documents";
 import Pdf from "../PDF";
 import SpreadSheetTab from "../spreadSheetTab";
-// import PresentationSlides from "../PresentationSlides";
-// import Images from "../Images";
+import PresentationSlidesTab from "../presentationSlidesTab";
+import ImagesTab from "../imagesTab";
  
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -25,7 +25,7 @@ const Tabs = () => {
           <Documents/>
         </TabContent>
         <TabContent id="tab2" activeTab={activeTab}>
-          {/* <PresentationSlides/> */}hdhdhdhdh
+          <PresentationSlidesTab/>
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
           <Pdf/>
@@ -34,7 +34,7 @@ const Tabs = () => {
           <SpreadSheetTab/>
         </TabContent>
         <TabContent id="tab5" activeTab={activeTab}>
-          {/* <Images/> */}hdhdhdhdh
+          <ImagesTab/>
         </TabContent>
       </div>
     </div>
