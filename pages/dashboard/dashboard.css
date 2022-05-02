@@ -4,7 +4,9 @@
     gap: 38px;
     width: 100%;
 }
-
+.dashboard_main_body .sidebar{
+    width: 247px;
+}
 .dashboard_main_body .dashboard_contents{
     width: 1122px;
     background: #FFFFFF;
@@ -77,3 +79,66 @@
 .dashboard_contents_header .right button:nth-child(3){
     width: 138px;
 }
+
+/* account settings  */
+.account_settings_page{
+    max-width: 438px;
+    margin-left: 32px;
+    position: relative;
+    margin-bottom: 190px;
+}
+.account_settings_page 
+.upload_avatar 
+.inn_upload_avatar{
+    width: 182px;
+    height: 182px;
+    background: #4378DB;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .upload_avatar_btn {
+    width: 182px;
+    height: 182px;
+    background: #4378DB;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: 'Mulish';
+    line-height: 16px;
+    transition: .3s ease-in-out;
+  }
+  .upload_avatar_btn:hover {
+    background: red;
+  }
+  .upload-btn-wrapper input[type=file] {
+    width: 182px;
+    height: 182px;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  /* .hide{
+    display: none;
+  }
+  .upload-btn-wrapper input[type=file]:hover + .hide{
+    display: block !important;
+  }
+   */

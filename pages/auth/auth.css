@@ -1,14 +1,21 @@
-.sign_up_page, .login_page{
+.sign_up_page, .login_page, 
+.forgot_password_page, 
+.reset_password_page{
     margin-top: 50px;
 }
 
 .sign_up_page .sign_up_page_content, 
-.login_page .login_page_content{
+.login_page .login_page_content, 
+.forgot_password_page .forgot_password_page_content, 
+.reset_password_page .reset_password_page_content{
     width: 100%;
 }
 
 .sign_up_page .sign_up_page_content span, 
-.login_page .login_page_content span{
+.login_page .login_page_content span, 
+.forgot_password_page 
+.forgot_password_page_content span,
+.reset_password_page .reset_password_page_content span{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -19,7 +26,10 @@
 }
 
 .sign_up_page .sign_up_page_content h2, 
-.login_page .login_page_content h2{
+.login_page .login_page_content h2, 
+.forgot_password_page 
+.forgot_password_page_content h2, 
+.reset_password_page .reset_password_page_content h2{
     margin-top: 8px;
     margin-bottom: 3px;
     font-family: 'Lato';
@@ -51,10 +61,25 @@
     font-size: 30px;
     line-height: 36px;
     color: #28293D;
-    
 }
 
+.forgot_password_page .forgot_password_page_content p, 
+.reset_password_page .reset_password_page_content p{
+  max-width: 533px;
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #28293D;
+}
 
+.forgot_password_page .forgot_password_page_content .forgot_passwordImg{
+  position: relative;
+  top: -40px;
+  }
 /* The checkbox */
 .agree-term {
     margin-top: 46px;

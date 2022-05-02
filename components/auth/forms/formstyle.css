@@ -43,6 +43,24 @@
     align-items: center;
     gap: 40px;
 }
+.reset_btn.submit-btn{
+    margin-top: 40px !important;
+}
+.account_settings .submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.account_settings .submit-btn .input-field input{
+    width: 100% !important;
+
+}
+.account_settings .submit-btn button{
+    width: 125px !important;
+    background-color: #fff !important;
+    border: 1px solid #4378DB !important;
+    color: #4378DB !important;
+}
 .form-container form .submit-btn button{
     display: flex;
     align-items: center;

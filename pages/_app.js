@@ -12,6 +12,8 @@ import Footer from '../components/footer/footer';
 import '../components/dashboard/dashboardtablesfiles.css'
 import NavBar from '../components/header/navbar';
 import '../components/header/navbar.css';
+import '../components/dashboard/categories/tabs.css'
+import '../components/dashboard/archives/archivesContents.css'
 import './404.css'
 
 

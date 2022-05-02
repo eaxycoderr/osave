@@ -4,9 +4,6 @@ export default function SignUpForm () {
   return (
     <div className="sign_up">
           <div className="sign_up-content">
-            <span>SECURE SOUCES</span>
-            <h2>Create Your Account</h2>
-            <p>Create new account to secure your documents</p>
             <div className="form-container">
               <form action="">
                 <div className="input-field">
