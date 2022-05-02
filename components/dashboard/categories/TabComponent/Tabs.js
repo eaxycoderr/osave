@@ -3,7 +3,7 @@ import TabNavItem from "../tabs/TabNavItem";
 import TabContent from "../tabs/TabContent";
 import Documents from "../documents";
 import Pdf from "../PDF";
-// import SpreadSheet from '../spreadSheet'
+import SpreadSheetTab from "../spreadSheetTab";
 // import PresentationSlides from "../PresentationSlides";
 // import Images from "../Images";
  
@@ -31,7 +31,7 @@ const Tabs = () => {
           <Pdf/>
         </TabContent>
         <TabContent id="tab4" activeTab={activeTab}>
-          {/* <SpreadSheet/> */}hdhdhdhdh
+          <SpreadSheetTab/>
         </TabContent>
         <TabContent id="tab5" activeTab={activeTab}>
           {/* <Images/> */}hdhdhdhdh

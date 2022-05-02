@@ -118,7 +118,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export default function SpreadSheet () {
+export default function SpreadSheetTab () {
   const [page, setPage] = React.useState (0);
   const [rowsPerPage, setRowsPerPage] = React.useState (5);
   const [open, setOpen] = React.useState(false);
