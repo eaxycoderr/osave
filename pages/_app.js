@@ -7,11 +7,12 @@ import './auth/auth.css';
 import '../components/footer/footer.css'
 import '../components/header/dashboardnavbar.css'
 import './dashboard/dashboard.css'
-
+import '../components/sidebar/sidebar.css'
 import Footer from '../components/footer/footer';
-
+import '../components/dashboard/dashboardtablesfiles.css'
 import NavBar from '../components/header/navbar';
 import '../components/header/navbar.css';
+import './404.css'
 
 
 function MyApp({ Component, pageProps }) {

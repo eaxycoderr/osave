@@ -1,4 +1,7 @@
 
+.sidebar{
+    width: 100%;
+}
 .sidebar ul{
     padding: 0;
 }

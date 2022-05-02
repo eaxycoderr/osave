@@ -164,6 +164,9 @@
     color: #263238;
     margin-top: 4px;
 }
+.file_descr_margin_{
+    margin-top: 25px;
+}
 .share_btn button{
     margin-left: 20px;
 }

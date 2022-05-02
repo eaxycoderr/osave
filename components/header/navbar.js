@@ -14,6 +14,11 @@ export default function NavBar() {
       router.pathname==='/dashboard/files' ? 
       <DashboardNavbar/>
       :
+      router.pathname === '/404' ?
+      <div className='404page'>
+  
+      </div>
+      :
       <header>
           <div className="inner_header container">
             <Image width="45" height="45" className='logo' src={Logo} alt="Logo" />

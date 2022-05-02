@@ -2,14 +2,9 @@
     display: flex;
     justify-content: space-between;
     gap: 38px;
+    width: 100%;
 }
-button{
-    cursor: pointer;
-}
-.dashboard_main_body .dashboard_sidebar{
-    width: 247px;
-}
-/* dashboard content */
+
 .dashboard_main_body .dashboard_contents{
     width: 1122px;
     background: #FFFFFF;
@@ -17,12 +12,9 @@ button{
     box-sizing: border-box;
     border-radius: 8px;
     margin-right: 33px;
-}
-.dashboard_main_body .dashboard_contents .empty_archives{
-    margin-top: 32px;
+    margin-top: 15px;
 }
 
-/* dashboard content header*/
 .dashboard_main_body .dashboard_contents 
 .dashboard_contents_header{
     padding: 32px;
@@ -30,6 +22,7 @@ button{
     align-items: center;
     justify-content: space-between;
 }
+
 .dashboard_main_body .dashboard_contents 
 .dashboard_contents_header .left p{
     font-family: 'Lato';
@@ -83,52 +76,4 @@ button{
 .dashboard_main_body .dashboard_contents 
 .dashboard_contents_header .right button:nth-child(3){
     width: 138px;
-}
-.file_descr_margin_{
-    margin-top: 25px;
-}
-
-/* .recycle_bin{
-    padding-top: 29px;
-} */
-
-.table .main_dashboard_contents 
-.main_dashboard_contents_header 
-.archive_contents_title.recycle_contents_title 
-.archive_contents_title_1{
-  display: flex;
-  gap: 152px;
-}
-.table .main_dashboard_contents 
-.main_dashboard_contents_header 
-.archive_contents_title.recycle_contents_title{
-    padding-right: 170px;
-}
-
-.table .main_dashboard_contents 
-.main_dashboard_contents_file 
-.inn_main_dashboard_contents_file .recycleBin_a{
-    width: 670px;
-    display: flex;
-    justify-content: space-between;
-}
-.table .main_dashboard_contents 
-.main_dashboard_contents_file 
-.inn_main_dashboard_contents_file 
-.recycleBin_a .date_time{
-    margin-left: 13px;
-}
-.table .main_dashboard_contents 
-.main_dashboard_contents_file 
-.inn_main_dashboard_contents_file 
-.recycleBin_a .file_archives{
-    margin-left: 0px;
-}
-.table .main_dashboard_contents 
-.main_dashboard_contents_file 
-.inn_main_dashboard_contents_file .recycleBin_b{
-    /* max-width: 710px; */
-    max-width: 300px;
-    display: flex;
-    justify-content: space-between;
 }
