@@ -1,0 +1,31 @@
+   /* Tab Navigation */
+ul.nav {
+    /* margin: 0 auto 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DFE0EB;
+    width: 100%;
+  }
+  ul.nav li {
+    width: 100%;
+    padding: 0.5rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #263238;
+  }
+   
+  ul.nav li.active {
+    border-bottom: 5px solid #4378DB ;
+  }
+   
+  /* Tab Content Styles */
+  .TabContent {
+    margin-top: 39px;
+  }

@@ -1,14 +1,11 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../../components/header/header';
-import Footer from '../../components/footer/footer';
 import resetpassword from '../../public/assets/resetpassword.png'
 
 export default function Resetpassword () {
   return (
     <div className="reset_password">
-      <Header />
       <main>
         <section className="reset_password-container">
           <div className="reset_password-content">
@@ -44,7 +41,6 @@ export default function Resetpassword () {
        
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

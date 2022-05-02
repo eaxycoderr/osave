@@ -1,14 +1,12 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../../components/header/header';
 import signup from '../../public/assets/signup.png'
 import SignUpForm from '../../components/auth/forms/signupform';
 
 export default function Signup () {
   return (
     <div className="sign_up">
-      <Header />
       <main>
         <div className="d-flex sign_up_page">
           <div className="sign_up_page_content">

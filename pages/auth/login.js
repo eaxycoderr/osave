@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../../components/header/header';
 import LoginImg from '../../public/assets/login.png'
 import LoginForm from '../../components/auth/forms/loginform';
 
@@ -9,7 +8,6 @@ export default function Login () {
   
   return (
     <div className="login">
-      <Header />
       <main>
         <div className="d-flex login_page">
           <div className="login_page_content">

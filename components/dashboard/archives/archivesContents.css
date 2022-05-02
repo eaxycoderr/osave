@@ -1,0 +1,151 @@
+.table .main_dashboard_contents 
+.main_dashboard_contents_header 
+.archive_contents_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-right: 145px;
+    color: #4378DB;
+}
+.table .main_dashboard_contents 
+.main_dashboard_contents_header 
+.archive_contents_title_1{
+  display: flex;
+  gap: 125px;
+}
+
+.table .main_dashboard_contents 
+.main_dashboard_contents_header 
+.archive_contents_title p{
+  margin: 0;
+  margin-right: 20px;
+}
+.table .main_dashboard_contents 
+.main_dashboard_contents_file 
+.inn_main_dashboard_contents_file 
+.file_description .file_description_a{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table .main_dashboard_contents 
+.empty_archive_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+.table .main_dashboard_contents 
+.empty_archive_content p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #28293D;
+}
+.table .main_dashboard_contents 
+.empty_archive_content 
+.empty_archive_content_btns{
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.empty_archive_content_btns button{
+  width: 138px;
+  min-height: 48px;
+  border: 1px solid #4378DB;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #4378DB;
+}
+.empty_archive_content_btns button:nth-child(2){
+  width: 220px;
+}
+.table .main_dashboard_contents 
+.empty_archive_content 
+.empty_archive_content_btns button svg{
+  position: relative;
+  top: 2px;
+}
+
+
+
+.table .main_dashboard_contents 
+.create_archive_contents{
+  max-width: 840px;
+  margin: auto;
+  margin-bottom: 108px;
+}
+.table .main_dashboard_contents 
+.create_archive_contents p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #28293D;
+}
+.create_archive_contents form .form_field{
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: column;
+}
+.create_archive_contents form .form_field label{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 18px;
+  color: #151522;
+  margin-bottom: 16px;
+}
+.table .main_dashboard_contents 
+.create_archive_contents form .form_field input{
+  width: 445px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #263238;
+  padding-bottom: 5px;
+}
+.table .main_dashboard_contents 
+.create_archive_contents form .form_field input{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 18px;
+  color: #151522;
+  
+}
+.create_archive_contents form .form_field textarea{
+  width: 445px;
+  height: 276px;
+  border: 1px solid #263238;
+  box-sizing: border-box;
+  padding: 20px;
+  resize: none;
+  outline: none;
+}
+.create_archive_contents form .empty_archive_content_btns{
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.create_archive_contents form .empty_archive_content_btns button:nth-child(2){
+  width: 254px;
+}

@@ -1,0 +1,35 @@
+.table .main_dashboard_contents 
+.main_dashboard_contents_header 
+.archive_contents_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-right: 145px;
+    color: #4378DB;
+}
+.table .main_dashboard_contents 
+.main_dashboard_contents_header 
+.archive_contents_title_1{
+  display: flex;
+  gap: 125px;
+}
+.table .main_dashboard_contents 
+.main_dashboard_contents_header 
+.archive_contents_title p{
+  margin: 0;
+  margin-right: 20px;
+}
+.table .main_dashboard_contents 
+.main_dashboard_contents_file 
+.inn_main_dashboard_contents_file 
+.file_description .file_description_a{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}

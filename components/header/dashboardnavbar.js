@@ -18,7 +18,7 @@ import DialogContent from '@mui/material/DialogContent';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 
 
-export default function DashboardHeader() {
+export default function DashboardNavbar() {
   const [showProfile, setShowProfile] = useState(false);
   const [open, setOpen] = useState(false);
 

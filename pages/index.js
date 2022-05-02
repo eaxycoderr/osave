@@ -1,13 +1,11 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../components/header/header';
 import HomeImg from '../public/assets/home.png';
 
 export default function Home () {
   return (
     <section className="home">
-      <Header />
       <main>
         <div className="d-flex home">
           <div className="home_content">

@@ -1,14 +1,11 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../../components/header/header';
-import Footer from '../../components/footer/footer';
 import forgotpassword from '../../public/assets/forgot-password.png'
 
 export default function Forgotpassword () {
   return (
     <div className="forgot_password">
-      <Header />
       <main>
         <section className="forgot_password-container">
           <div className="forgot_password-content">
@@ -45,7 +42,6 @@ export default function Forgotpassword () {
        
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

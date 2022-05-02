@@ -1,0 +1,47 @@
+
+.sidebar ul{
+    padding: 0;
+}
+
+.sidebar ul li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #263238;
+    max-width: 247px;
+    padding: 15px;
+    padding-left: 46px;
+    cursor: pointer;
+    display: block;
+}
+.sidebar ul li a.active{
+    border-left: 5px solid #4378DB;
+    background-color: rgba(67, 120, 219, 0.1);
+}
+.sidebar .sideBar_link .inn_sidebar{
+    padding-left: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 23px;
+}
+.sidebar .sideBar_link .inn_sidebar.categories p{
+    position: relative;
+    left: -12px;
+}
+.sidebar .sideBar_link .inn_sidebar p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #263238;
+}
+.sidebar .sideBar_link .inn_sidebar:hover p{
+    font-weight: 800;
+}
