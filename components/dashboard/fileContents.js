@@ -129,7 +129,7 @@ export default function FileContents () {
   const [fileList, updateFileList] = React.useState(fileUpload);
 
   const handleRemoveItem = (id) => {
-  updateFileList(fileList.filter(item => item.id !== id));
+  updateFileList(fileList.filter(item => item.id === id));
   };
 
   const handleVisible = () => {
@@ -230,7 +230,7 @@ export default function FileContents () {
                   </div>
                   <div className="delete_btn file_descr_margin_">
                     <Tooltip title="Delete">
-                      <DeleteIcon style={{color: '#4378DB'}} onClick={() => handleRemoveItem(item.id)}/>
+                      <DeleteIcon style={{color: '#4378DB'}} onClick={handleRemoveItem}/>
                     </Tooltip>
                   </div>
                   <div className="three_dots file_descr_margin_">
