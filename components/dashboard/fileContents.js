@@ -125,7 +125,12 @@ export default function FileContents () {
   const [rowsPerPage, setRowsPerPage] = React.useState (6);
   const [open, setOpen] = React.useState(false);
   const [show, setShow] = React.useState(false);
-  const [shareShow, setShareShow] = React.useState(false);
+
+  const [fileList, updateFileList] = React.useState(fileUpload);
+
+  const handleRemoveItem = (id) => {
+  updateFileList(fileList.filter(item => item.id !== id));
+  };
 
   const handleVisible = () => {
     setShow(true)
@@ -169,12 +174,12 @@ export default function FileContents () {
         </div>
 
         <div className="main_dashboard_contents_file">
-          {fileUpload
+          {fileList
             .slice (page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-            .map ((fileUploads, index) => (
+            .map ((fileUploads, item) => (
               <div
                 className="inn_main_dashboard_contents_file table_contents_padding"
-                key={fileUploads.key}
+                key={item.id}
               >
                 <div className="file_description">
                   <div className="file">
@@ -225,7 +230,7 @@ export default function FileContents () {
                   </div>
                   <div className="delete_btn file_descr_margin_">
                     <Tooltip title="Delete">
-                      <DeleteIcon style={{color: '#4378DB'}} onClick={handleClickOpen}/>
+                      <DeleteIcon style={{color: '#4378DB'}} onClick={() => handleRemoveItem(item.id)}/>
                     </Tooltip>
                   </div>
                   <div className="three_dots file_descr_margin_">

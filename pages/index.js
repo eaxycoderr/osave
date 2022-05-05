@@ -16,7 +16,8 @@ export default function Home () {
                 This is an online uninterrupted secure documents safe which
                 can be assess from anywhere all over the world at any point in need.
               </p>
-              <Link href="/auth/login">GET STARTED</Link>
+              <Link href="/auth/login">GET STARTED</Link><br/>
+              <Link href="/dashboard/files">DASHBOARD</Link>
             </div>
 
           </div>

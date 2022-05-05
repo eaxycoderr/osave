@@ -1,7 +1,4 @@
 import * as React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import docxFileLogo from '../../../public/assets/upload_folder/Documents/docx.png';
 import TablePagination from '@mui/material/TablePagination';
 import Tooltip from '@mui/material/Tooltip';
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -14,9 +11,6 @@ import Slide from '@mui/material/Slide';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import CloseIcon from '@mui/icons-material/Close';
 import TaskAltIcon from '@mui/icons-material/TaskAlt';
-import { ImFacebook } from 'react-icons/im';
-import { ImTwitter } from 'react-icons/im';
-import { ImLinkedin2 } from 'react-icons/im';
 
 const documentsUpload = [
   {
@@ -172,7 +166,7 @@ export default function ArchiveContents () {
                       <span>{documentsUploads.archiveTime}</span>
                     </div>
                   </div>
-                  <div className='file_description_a'>
+                  <div className='file_description_a file_description_b'>
                     <div className="download_btn file_descr_margin_">
                     <Tooltip title="Download">
                       <button>DOWNLOAD</button>

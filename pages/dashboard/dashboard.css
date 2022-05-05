@@ -4,9 +4,11 @@
     gap: 38px;
     width: 100%;
 }
-.dashboard_main_body .adjustment.sidebar{
+
+.dashboard_main_body .sidebar{
     width: 247px;
 }
+
 .dashboard_main_body .dashboard_contents{
     width: 1122px;
     background: #FFFFFF;
@@ -122,9 +124,7 @@
     line-height: 16px;
     transition: .3s ease-in-out;
   }
-  .upload_avatar_btn:hover {
-    background: red;
-  }
+ 
   .upload-btn-wrapper input[type=file] {
     width: 182px;
     height: 182px;

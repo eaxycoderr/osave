@@ -6,12 +6,12 @@
 }
 .table_contents_padding{
     padding-left: 32px;
-    padding-right: 32px;
+    /* padding-right: 32px; */
 }
 .table .main_dashboard_contents 
 .main_dashboard_contents_header 
 .main_dashboard_contents_title{
-    max-width: 931px;
+    max-width: 901px;
     display: flex;
     justify-content: space-between;
     font-family: 'Lato';
@@ -21,6 +21,7 @@
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #4378DB;
+    margin-right: 33px;
 }
 .main_dashboard_contents .main_dashboard_contents_title span{
     margin-top: 0;
@@ -111,7 +112,6 @@
     color: #263238;
     margin: 0;
 }
-
 .table .main_dashboard_contents 
 .main_dashboard_contents_file 
 .inn_main_dashboard_contents_file 
@@ -194,8 +194,7 @@
     align-items: center;
 }
 .download_btn button{
-    margin-left: 23px;
-     
+    margin-left: 23px;     
 }
 .download_btn button{
     width: 125px;
@@ -357,7 +356,21 @@
 .main_dashboard_contents_file 
 .inn_main_dashboard_contents_file .recycleBin_b{
     /* max-width: 710px; */
+    margin-right: 33px;
     max-width: 300px;
     display: flex;
     justify-content: space-between;
+}
+
+.modalContent .modalContentBtn{
+    display: flex;
+    gap: 10px;
+}
+.modalContent .modalContentBtn .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    color: #FFFFFF;
+    background-color: #4378DB;
+    text-transform: inherit;
+}
+.modalContent .modalContentBtn .css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #6189d3;
 }

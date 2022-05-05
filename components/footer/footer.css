@@ -2,6 +2,7 @@ footer{
     min-height: 38px;
     background: #4378DB;
     margin-top: 64px;
+    width: 100%;
 }
 footer .inner_footer {
     display: flex;

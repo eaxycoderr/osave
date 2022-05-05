@@ -34,6 +34,13 @@
     display: flex;
     justify-content: space-between;
 }
+.table .main_dashboard_contents 
+.main_dashboard_contents_file 
+.inn_main_dashboard_contents_file 
+.file_description 
+.file_description_a.file_description_b{
+    margin-right: 32px;
+}
 
 .table .main_dashboard_contents 
 .empty_archive_content{
